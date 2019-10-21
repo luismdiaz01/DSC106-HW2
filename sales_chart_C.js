@@ -1,10 +1,7 @@
 Highcharts.chart('container6', {
 
     title: {
-        text: 'Monthly sales data 2016 - Present'
-    },
-    subtitle: {
-        text: 'BK introduced impossible burger August 2019'
+        text: 'Monthly Sales - Central'
     },
     data: {
         csv: document.getElementById('csv6').innerHTML

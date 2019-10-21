@@ -3,7 +3,7 @@ Highcharts.chart('container', {
         renderTo: 'container'
     },
     title: {
-        text: 'Monthly sales data 2016 - Present'
+        text: 'Total Monthly sales data 2016 - Present'
     },
     subtitle: {
         text: 'BK introduced impossible burger August 2019'
