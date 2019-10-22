@@ -1,22 +1,39 @@
 <html>
-
+<style>
+    #header{
+        background-color: gold;
+        width:100%;
+        height: 10%;
+        padding: 1rem;
+    }
+    #subheader{
+        background-color: red;
+        float: top;
+        width: 10rem;
+        height: 1rem;
+    }
+</style>
 <head>
     <title> McDonald's Sales Data</title>
 </head>
 
 <body>
-    <h1> Monthly Sales</h1>
 
 
     <div id='chartPlaceHolder'> </div>
 
 
-    <!-- External imports begin -->
 
     <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>s
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+    <div id = 'header'>
+        <img src="https://i.pinimg.com/originals/96/48/9d/96489d26ab5e1f70722e9c180d7ea63b.jpg" , style="float:left;width:20%;height:100%"/>
+        <img src="https://i.pinimg.com/originals/96/48/9d/96489d26ab5e1f70722e9c180d7ea63b.jpg" , style="float:right;width:20%;height:100%"/>
+        <div id = 'subheader'></div><h1>McDonald's Sales Data</h1>
+    </div>
 
     <div id = 'content'>
         <div id="container" style="min-width: 610px; height: 800px; max-width: 1000px; margin: 0 auto"></div>
@@ -33,7 +50,6 @@
 
 
 
-    <!-- External imports begin -->
     <pre id="csv" style="display:none">"Month, Year",HM-NE,CF-NE,FF-NE,HM-SW,CF-SW,FF-SW,HM-NW,CF-NW,FF-NW,HM-SE,CF-SE,FF-SE,HM-C,CF-C,FF-C
         Jan-16,1140955,494802,285238,1124565,468568,281141,1111618,482079,277904,1095034,456264,273758,1126476,450958,281619
         Feb-16,1175529,489804,293882,1200559,480616,288369,1188037,475603,297009,1167009,486254,280311,1109076,462115,288586
@@ -83,11 +99,9 @@
         </pre>
 
 
-    <!-- Internal imports begin -->
 
     <script src="sales_chart.js"></script>
 
-    <!-- Internal imports end -->
     <pre id="csv2" style="display:none"> "Month, Year",HM-NE,CF-NE,FF-NE
     Jan-16,1140955,494802,285238
     Feb-16,1175529,489804,293882
@@ -483,6 +497,8 @@
     </pre>
 
     <script src="monthly_FF.js"></script>
+
+
 
 </body>
 

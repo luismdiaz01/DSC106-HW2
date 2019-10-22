@@ -9,7 +9,7 @@ Highcharts.chart('container4', {
     plotOptions: {
         series: {
             marker: {
-                enabled: false
+                enabled: true
             }
         }
     },
