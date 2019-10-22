@@ -14,6 +14,10 @@ Highcharts.chart('container3', {
         }
     },
     xAxis: {
+        type: 'category',
+        labels: {
+            format: "{value}"
+        },
         title: {
             text: 'Years'
         },
