@@ -1,18 +1,20 @@
 <html>
 <style>
-    #header{
+    #header {
         background-color: gold;
-        width:100%;
+        width: 100%;
         height: 15%;
         padding: 1rem;
     }
-    #subheader{
+
+    #subheader {
         background-color: red;
         float: top;
         width: 10rem;
         height: 1rem;
     }
 </style>
+
 <head>
     <title> McDonald's Sales Data</title>
 </head>
@@ -29,14 +31,20 @@
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
 
-    <div id = 'header'>
-        <img src="https://i.pinimg.com/originals/96/48/9d/96489d26ab5e1f70722e9c180d7ea63b.jpg" , style="float:left;width:20%;height:100%"/>
-        <img src="https://i.pinimg.com/originals/96/48/9d/96489d26ab5e1f70722e9c180d7ea63b.jpg" , style="float:right;width:20%;height:100%"/>
-        <div id = 'subheader'></div><h1>McDonald's Sales Data</h1>
+    <div id='header'>
+        <img src="https://i.pinimg.com/originals/96/48/9d/96489d26ab5e1f70722e9c180d7ea63b.jpg" ,
+            style="float:left;width:20%;height:100%" />
+        <img src="https://i.pinimg.com/originals/96/48/9d/96489d26ab5e1f70722e9c180d7ea63b.jpg" ,
+            style="float:right;width:20%;height:100%" />
+        <div id='subheader'></div>
+        <h1>McDonald's Sales Data</h1>
     </div>
-    
-    <a titlt = "print screen" alt = "print screen" onclick="window.print(); "target = "_blank" style = "cursor: pointer;"><b>Click Here to download as PDF!</b><img src="https://www.pngix.com/pngfile/middle/130-1302556_download-download-now-download-icon-download-button-app.png" width = '40' height = '40'></a>
-    <div id = 'content'>
+
+    <a titlt="print screen" alt="print screen" onclick="window.print(); " target="_blank"
+        style="cursor: pointer;"><b>Click Here to download as PDF!</b><img
+            src="https://www.pngix.com/pngfile/middle/130-1302556_download-download-now-download-icon-download-button-app.png"
+            width='40' height='40'></a>
+    <div id='content'>
         <div id="container" style="min-width: 610px; height: 800px; max-width: 1000px; margin: 0 auto"></div>
         <div id="container2" style="min-width: 610px; height: 800px; max-width: 1000px; margin: 0 auto"></div>
         <div id="container3" style="min-width: 610px; height: 800px; max-width: 1000px; margin: 0 auto"></div>
@@ -48,8 +56,6 @@
         <div id="container9" style="min-width: 610px; height: 800px; max-width: 1000px; margin: 0 auto"></div>
 
     </div>
-
-
 
     <pre id="csv" style="display:none">"Month, Year",HM-NE,CF-NE,FF-NE,HM-SW,CF-SW,FF-SW,HM-NW,CF-NW,FF-NW,HM-SE,CF-SE,FF-SE,HM-C,CF-C,FF-C
         Jan-16,1140955,494802,285238,1124565,468568,281141,1111618,482079,277904,1095034,456264,273758,1126476,450958,281619
@@ -98,8 +104,6 @@
         Aug-19,1502572,601520,360912,1422314,616820,355578,1462348,585417,351250,1386752,601397,360838,1416674,590281,340279
         Sep-19,1458379,607658,379476,1431260,620699,372419,1472377,589432,353659,1397616,606109,363665,1383228,599869,345807
         </pre>
-
-
 
     <script src="sales_chart.js"></script>
 
@@ -296,7 +300,7 @@
         Jul-19,1336287,556786,3477074
         Aug-19,1386752,601397,3608389
         Sep-19,1397616,606109,3636657
-    </pre>    
+    </pre>
 
     <script src="sales_chart_SE.js"></script>
 
